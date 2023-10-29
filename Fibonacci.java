@@ -4,7 +4,7 @@ package github;
 import java.util.Scanner;
 
 public class Fibonacci {
-    public static void Fibonacci(int limit){
+    static void Fibonacci(int limit){
         int num1 = 1, num2 = 1;
         int counter = 0;
         
