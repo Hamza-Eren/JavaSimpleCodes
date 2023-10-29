@@ -15,7 +15,7 @@ public class Factorial {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         
-        System.out.println("Faktöriyelini istediğiniz sayı: ");
+        System.out.print("Faktöriyelini istediğiniz sayı: ");
         int num = scan.nextInt();
         System.out.println(Factorial(num));
     }
