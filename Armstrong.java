@@ -4,7 +4,7 @@ package github;
 import java.util.Scanner;
 
 public class Armstrong {
-    public static boolean Armstrong(int number){
+    static boolean Armstrong(int number){
         int toplam = 0;
         char[] arr = Integer.toString(number).toCharArray();
         for (char x : arr){
