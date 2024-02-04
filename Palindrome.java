@@ -4,7 +4,7 @@ package github;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Polindrom {
+public class Palindrome {
     static boolean isPol(String word){
         String str= word;
         String nstr="";
